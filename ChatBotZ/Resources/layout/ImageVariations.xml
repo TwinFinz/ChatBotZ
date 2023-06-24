@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:theme="@android:style/Theme.Holo"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@id/action_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_settings_cog"
+                android:scaleType="fitCenter"
+                android:layout_weight="0"
+                android:layout_gravity="left"
+                android:contentDescription="@string/NA" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_weight="1"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageVarOutput"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:contextClickable="true"
+            android:visibility="invisible"
+            android:saveEnabled="true"
+            android:src="@drawable/placeholder"
+        android:contentDescription="@string/ImageVariationTxt"
+        />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button
+            android:id="@+id/SelectImageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+                android:layout_weight="1"
+            android:text="@string/SelectImageTxt" />
+        <Button
+            android:id="@+id/ModifyImageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+                android:layout_weight="1"
+            android:text="@string/ModifyImageTxt" />
+    </LinearLayout>
+</LinearLayout>

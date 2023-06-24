@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Base.Theme.AppCompat">
+		<!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="@style/Base.Theme.AppCompat.Dialog" />
+	
+	<style name="DarkButton3D" parent="@android:style/DeviceDefault.SegmentedButton">
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:backgroundTint">#8A000000</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:stateListAnimator">@anim/abc_grow_fade_in_from_bottom</item>
+	</style>
+	<style name="SquareSelectionDialogStyle">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:backgroundDimEnabled">true</item>
+	</style>
+	
+</resources>

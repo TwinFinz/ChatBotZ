@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:theme="@android:style/Theme.Holo"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/CompletionsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"      
+            android:text="@string/Completions"
+            tools:ignore="NestedWeights"/>
+        <Button
+            android:id="@+id/editImageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"        
+            android:text="@string/editImageTxt"
+            tools:ignore="NestedWeights" />
+        <Button 
+            android:id="@+id/TranscribeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"            
+            android:text="@string/TranscribeAudioTxt"
+            tools:ignore="NestedWeights"/>        
+        <Button
+            android:id="@+id/ResetBotsListBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"           
+            android:text="@string/ResetBotsList"
+            tools:ignore="NestedWeights"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ImageVariationBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"             
+            android:text="@string/ImageVariationTxt"
+            tools:ignore="NestedWeights" />     
+        <Button
+            android:id="@+id/ImageGenBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"           
+            android:text="@string/ImageGeneration"
+            tools:ignore="NestedWeights" />   
+        <Button
+            android:id="@+id/LicensesBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"            
+            android:text="@string/LicensesTxt"
+            tools:ignore="NestedWeights"/>
+        <Button
+            android:id="@+id/ResetAPIBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ResetAPI"
+            tools:ignore="NestedWeights"/>
+    </LinearLayout>
+</LinearLayout>

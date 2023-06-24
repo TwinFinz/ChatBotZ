@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBotZ", "ChatBotZ\ChatBotZ.csproj", "{26D31108-8609-4FB8-820F-FFF26AB53FA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Trial|Any CPU = Trial|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26D31108-8609-4FB8-820F-FFF26AB53FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D31108-8609-4FB8-820F-FFF26AB53FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D31108-8609-4FB8-820F-FFF26AB53FA8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{26D31108-8609-4FB8-820F-FFF26AB53FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D31108-8609-4FB8-820F-FFF26AB53FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D31108-8609-4FB8-820F-FFF26AB53FA8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{26D31108-8609-4FB8-820F-FFF26AB53FA8}.Trial|Any CPU.ActiveCfg = Trial|Any CPU
+		{26D31108-8609-4FB8-820F-FFF26AB53FA8}.Trial|Any CPU.Build.0 = Trial|Any CPU
+		{26D31108-8609-4FB8-820F-FFF26AB53FA8}.Trial|Any CPU.Deploy.0 = Trial|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AD2106B-80BC-4623-B64F-427183CED3E3}
+	EndGlobalSection
+EndGlobal
