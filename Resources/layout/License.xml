@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.Holo"
+    android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/licenseView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:isScrollContainer="true"
+            android:textIsSelectable="true"
+            android:editable="false"
+            android:visibility="visible"/>
+</LinearLayout>

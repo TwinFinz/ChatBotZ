@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ChatBotZ</string>
+	<string name="action_settings">Settings</string>
+	<string name="NA">N/A</string>
+	<string name="SendBtnTxt">Send</string>
+	<string name="ModifyImgTxt">Modify Image</string>
+	<string name="SelectImageBtn">Select Image</string>
+	<string name="ModifyAudioTxt">Modify Audio</string>
+	<string name="RecordAudioTxt">Record Audio</string>
+	<string name="SelectAudioTxt">Select Audio</string>
+	<string name="Completions">Chat Completions</string>
+	<string name="ImageGeneration">Image Generation</string>
+	<string name="ImageVariationTxt">Image Variation</string>
+	<string name="editImageTxt">Image Edit</string>
+	<string name="LicensesTxt">Licenses</string>
+	<string name="TranscribeAudioTxt">Transcribe Audio</string>
+	<string name="ResetBotsList">Reset Model List</string>
+	<string name="SelectImageTxt">Select Image</string>
+	<string name="ModifyImageTxt">Modify Image</string>
+	<string name="ResetAPI">Reset API Key</string>
+	<string name="TmpBtnTxt">Button</string>
+	<string name="DoneBtnTxt">Done</string>
+	
+</resources>
